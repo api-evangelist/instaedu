@@ -1,8 +1,23 @@
 aid: instaedu
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instaedu.png
 name: InstaEDU
-description: InstaEDU is a company surfaced as a portfolio company of battery-ventures, social-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: InstaEDU was an online, on-demand tutoring platform founded in 2011 in San Francisco that
+  connected students with tutors for live one-on-one help across a range of academic subjects. Backed by
+  Battery Ventures and Social Capital, the company was acquired by Chegg in 2014 and folded into the Chegg
+  Tutors service, which Chegg subsequently wound down in 2021. There is no independent InstaEDU developer
+  program, public API, developer portal, or live domain today (instaedu.com no longer resolves) — this
+  profile is retained as a historical portfolio lead in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/instaedu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +26,19 @@ x-backed-by:
 - social-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by Chegg (2014); folded into Chegg Tutors, shut down 2021; instaedu.com does not resolve.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- EdTech
+- Tutoring
+- Learning
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.chegg.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
