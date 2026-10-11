@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "instaedu",
+    "captured_at": "2026-10-11T190816",
+    "source_url": "https://www.chegg.com",
+    "source_type": "Website",
+    "file": "instaedu-2026-10-11T190816.png",
+    "bytes": 26390,
+    "capture": "playwright-local"
+  }
+]
